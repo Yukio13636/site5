@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+   
+    
+}
+
+@font-face{
+    src: url(Arabic.ttf);
+    font-family:'Arabic';
+}
+
+ *{
+    font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 100%;
+    margin:0 auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+     background-color: rgba(48, 50, 50, 0.5);
+   position: fixed;
+   z-index: 7;
+    overflow: hidden;
+    top: 0;
+    
+}
+   
+
+.logo{
+margin-left:15px;
+width:300px;
+height:50px;
+}
+
+.list{
+    margin-left: auto;
+ display: flex;
+ padding: 0 100px;
+}
+
+.list li{
+    padding:0 50px;
+    list-style: none;
+    color: azure;
+    font-family: 'Arabic';
+
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Arabic';
+}
+
+.container a:hover{
+    text-decoration: none;
+    color:#a7257c;
+}
+
+
+
+
+
+.box-size{
+    justify-content: center;
+    height: auto;
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.editor{
+    margin-top: 10%;
+    margin-bottom: 1%;
+ width: 10%;
+ height: auto;
+}
+.img{
+    margin-top: 60px;
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    justify-content: center;
+    height: auto;
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+    overflow: wrap;
+    
+}
+
+.text{
+    align-items: left;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.text h3{
+    color: gray;
+    font-size:1vw;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.text p{
+    font-style: italic;
+    font-size:2vw;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: gray;
+}
+
+.text h2{
+
+    font-size:3.0vw;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.img2{
+    max-width: 100%;
+    height: auto;
+   
+}
+
+.paragrah{
+    font-size: 1.2vw;
+    overflow: wrap;
+}
+
+.pbox{
+    display: inline-block;
+    width:70%;
+   word-wrap: break-word;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: wrap;
+    height: auto;
+}
+
+.footer{
+    background-color: black;
+    height:auto;
+    width:100%;
+
+    color: white;
+ }
+ .footer-content{
+   display: flex;   
+   align-items: center;  
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+ .footer-content .logo{
+    height:180px ;
+    width: 160px;
+    margin-right: 20px;
+}
+
+
+.socials{
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin:30px 0 30px 0;
+}
+
+.socials li{
+    margin: 0 20px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials a:hover{
+    text-decoration: none;
+    color:#a7257c;
+}
+
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.footer-bottom{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
